@@ -11,7 +11,7 @@ const handleRegister = async ({
   setErrors,
   setSnackbar,
 }) => {
-  const url = 'https://my-json-server.typicode.com/Gunel1999/mui_1_db/db';
+  const url = 'https://my-json-server.typicode.com/Gunel1999/mui_1_db';
 
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   const newErrors = {

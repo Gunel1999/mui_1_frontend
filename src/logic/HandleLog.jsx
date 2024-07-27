@@ -27,7 +27,7 @@ const handleLogin = async ({
       email,
       password,
     };
-    const url = 'https://my-json-server.typicode.com/Gunel1999/mui_1_db/db';
+    const url = 'https://my-json-server.typicode.com/Gunel1999/mui_1_db';
 
     try {
       const response = await axios.get(`${url}/users`);
